@@ -1,0 +1,23 @@
+1. use info source to find the source code in c
+2.there are 2 additional frames made during exacution of main
+3. main base frame pointer: 0xbffff668
+local variables:i = 0xbffff65c
+long_str = 0xbffff648
+
+
+boo base frame pointer: 0xbffff628
+local variables: a = 0xbffff61c
+b = 0xbffff618
+
+foo base frame pointer: 0xbffff5f8
+local variables: buffer1 = 0xbffff5a8
+buffer2 = 0xbffff528
+x = 0xbffff5ec
+y = 0xbffff5e8
+
+4. return address for boo: 0xbffff62c
+
+5. buffer1: 0xbffff5a8
+difference = 0x84
+
+6. change it to 0x08048523
