@@ -1,0 +1,34 @@
+TASK 3
+1. use info source to find the source code in c
+2.Because there are 2 other function calls, and foo and boo has 3 additional system calls in those functions, there are 5 additional stack frames allocated.
+3. main base frame pointer: 0xbffff668
+local variables:i = 0xbffff65c
+long_str = 0xbffff648
+
+
+boo base frame pointer: 0xbffff628
+local variables: a = 0xbffff61c
+b = 0xbffff618
+
+foo base frame pointer: 0xbffff5f8
+local variables: buffer1 = 0xbffff5a8
+buffer2 = 0xbffff528
+x = 0xbffff5ec
+y = 0xbffff5e8
+
+4. return address for boo: 
+ 0x08048513 <+48>:	mov    %eax,(%esp)
+   0x08048516 <+51>:	call   0x80484b4 <boo>
+answer: 0x0804851b
+
+5. buffer1: 0xbffff5a8
+difference = 0x54
+
+6. change it to 0x08048523
+
+TASK 4
+1. This attack of overflowing the buffer with a number greater than the array size of 16 works because it will overwrite the auth flag to something that is
+a non-zero value, essentially passing that test and granting me access
+2. A string that would overflow and not segfault would be any string length at least 17 characters and below 28 characters because then it would overwrite the
+return address if its at least 28 characters.
+3.
