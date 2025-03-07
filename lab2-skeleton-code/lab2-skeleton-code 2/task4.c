@@ -25,7 +25,6 @@ int main(int argc, char *argv[]) {
     printf("arg: %s\n", argv[1]);
 
     i = check_authentication(argv[1]);
-
     printf("checking auth return\n");
 
     if (i == 0) {
