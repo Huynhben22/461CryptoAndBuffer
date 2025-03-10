@@ -1,0 +1,10 @@
+Script started on Mon 10 Mar 2025 01:05:51 AM UTC
+]0;vagrant@vagrant-ubuntu-trusty-32: ~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2vagrant@vagrant-ubuntu-trusty-32:~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2$ gc[K[K./t4 $EGG
+arg: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA¤…
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ Access Granted.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Segmentation fault (core dumped)
+]0;vagrant@vagrant-ubuntu-trusty-32: ~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2vagrant@vagrant-ubuntu-trusty-32:~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2$ ec[Kxit
+Script done on Mon 10 Mar 2025 01:06:07 AM UTC
