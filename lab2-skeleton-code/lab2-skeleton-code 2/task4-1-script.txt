@@ -1,0 +1,14 @@
+Script started on Mon 10 Mar 2025 01:54:58 AM UTC
+]0;vagrant@vagrant-ubuntu-trusty-32: ~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2vagrant@vagrant-ubuntu-trusty-32:~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2$ ./44[K 12345678901234567
+bash: ./4: No such file or directory
+]0;vagrant@vagrant-ubuntu-trusty-32: ~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2vagrant@vagrant-ubuntu-trusty-32:~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2$ ./4 12345678901234567[1@t
+arg: 12345678901234567
+checking auth return
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ Access Granted.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+]0;vagrant@vagrant-ubuntu-trusty-32: ~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2vagrant@vagrant-ubuntu-trusty-32:~/461CryptoAndBuffer/lab2-skeleton-code/lab2-skeleton-code 2$ exit
+exit
+
+Script done on Mon 10 Mar 2025 01:55:18 AM UTC
